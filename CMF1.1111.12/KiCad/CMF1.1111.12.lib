@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CMF1.1111.12
+#/290573/1794745/2.50/4/2/Connector
+DEF CMF1.1111.12 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "CMF1.1111.12" 650 200 50 H V L CNN
+F2 "CMF1111112" 650 100 50 H I L CNN
+F3 "https://www.schurter.com/en/datasheet/typ_CMF1.pdf" 650 0 50 H I L CNN
+F4 "CAD-model shows appliance inlet with PCB-terminals only, with line switch marking 0/1, snap-in mounting on PCB and fixation with screw to the centre position from the top, with rear-side insulation cover." 650 -100 50 H I L CNN "Description"
+F5 "18" 650 -200 50 H I L CNN "Height"
+F6 "SCHURTER" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "CMF1.1111.12" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "693-CMF1.1111.12" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Schurter/CMF1111112?qs=%2F0Eb3QIYuIbNncoXboECMA%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X N 1 0 0 200 R 50 50 0 0 P
+X L 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

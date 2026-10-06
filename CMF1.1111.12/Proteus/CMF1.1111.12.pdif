@@ -1,0 +1,202 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "CMF1.1111.12"
+   (description "CAD-model shows appliance inlet with PCB-terminals only, with line switch marking 0/1, snap-in mounting on PCB and fixation with screw to the centre position from the top, with rear-side insulation cover.")
+   (family "CON")
+   (package "CMF1111112")
+   (attribute "Datasheet Link" "https://www.schurter.com/en/datasheet/typ_CMF1.pdf")
+   (attribute "Geometry.Height" "18mm")
+   (attribute "Manufacturer_Name" "SCHURTER")
+   (attribute "Manufacturer_Part_Number" "CMF1.1111.12")
+   (attribute "Mouser Part Number" "693-CMF1.1111.12")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Schurter/CMF1111112?qs=%2F0Eb3QIYuIbNncoXboECMA%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "CMF1.1111.12")
+    (pin "N" 1 PS)
+    (pin "L" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "CMF1.1111.12"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CMF1111112"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6.95 6.84)
+      (pt 46.35 6.84)
+      (pt 46.35 -14.16)
+      (pt -6.95 -14.16)
+      (pt -6.95 6.84))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -6.95 6.84)
+      (pt 46.35 6.84)
+      (pt 46.35 -14.16)
+      (pt -6.95 -14.16)
+      (pt -6.95 6.84))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -11.75 7.84)
+      (pt 51.15 7.84)
+      (pt 51.15 -18.46)
+      (pt -11.75 -18.46)
+      (pt -11.75 7.84))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 46.35 -4.66)
+      (pt 48.65 -4.66)
+      (pt 48.65 -7.66)
+      (pt 46.35 -7.66))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -6.95 -4.66)
+      (pt -9.25 -4.66)
+      (pt -9.25 -7.66)
+      (pt -6.95 -7.66))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 26.87 -14.16)
+      (pt 28.37 -17.46)
+      (pt 34.87 -14.16))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 26.87 -14.16)
+      (pt 28.37 -17.46)
+      (pt 34.87 -14.16))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -11 0)
+      (arc (pt -11.000 0.000) (pt -11.000 -0.050) (pt -10.900 0.050) (start 180.0) (sweep 180.0))
+      (pt -10.9 0)
+      (arc (pt -10.900 0.000) (pt -11.000 -0.050) (pt -10.900 0.050) (start 180.0) (sweep .0))
+      (pt -11 -0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 8.600 -0.000) (padstack 0))
+   (leg 3 (pt 27.050 3.840) (padstack 0))
+   (leg 4 (pt 34.050 3.840) (padstack 0))
+   (leg 5 (pt 18.800 -3.160) (padstack 5))
+   (leg 6 (pt -9.250 -6.160) (padstack 6))
+   (leg 7 (pt -2.800 -6.160) (padstack 7))
+   (leg 8 (pt 42.200 -6.160) (padstack 8))
+   (leg 9 (pt 48.650 -6.160) (padstack 9))
+   (padstack 0
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (round 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (round 2.400))
+   )
+   (padstack 1
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (square 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (square 2.400))
+   )
+   (padstack 5
+    (hole 6.2)
+    (plated false)
+    (pad (layer TCOP) (round 3.100))
+    (pad (layer INNER) (round 3.100))
+    (pad (layer BCOP) (round 3.100))
+   )
+   (padstack 6
+    (hole 3)
+    (plated false)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (padstack 7
+    (hole 3.2)
+    (plated false)
+    (pad (layer TCOP) (round 1.600))
+    (pad (layer INNER) (round 1.600))
+    (pad (layer BCOP) (round 1.600))
+   )
+   (padstack 8
+    (hole 3.2)
+    (plated false)
+    (pad (layer TCOP) (round 1.600))
+    (pad (layer INNER) (round 1.600))
+    (pad (layer BCOP) (round 1.600))
+   )
+   (padstack 9
+    (hole 3)
+    (plated false)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (model "CMF1.1111.12.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

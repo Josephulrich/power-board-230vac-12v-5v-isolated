@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CMF1.1111.12
+D CAD-model shows appliance inlet with PCB-terminals only, with line switch marking 0/1, snap-in mounting on PCB and fixation with screw to the centre position from the top, with rear-side insulation cover.
+K
+F https://www.schurter.com/en/datasheet/typ_CMF1.pdf
+$ENDCMP
+#
+#End Doc Library

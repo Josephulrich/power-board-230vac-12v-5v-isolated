@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CMF1.1111.12'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "SCHURTER", "CMF1.1111.12" (!) = "", "CMF1111112", "Other", "693-CMF1.1111.12", "https://www.mouser.co.uk/ProductDetail/Schurter/CMF1111112?qs=%2F0Eb3QIYuIbNncoXboECMA%3D%3D", "", "", "CAD-model shows appliance inlet with PCB-terminals only, with line switch marking 0/1, snap-in mounting on PCB and fixation with screw to the centre position from the top, with rear-side insulation cover.", "https://www.schurter.com/en/datasheet/typ_CMF1.pdf", "18 mm"
+END_PART
+
+END.

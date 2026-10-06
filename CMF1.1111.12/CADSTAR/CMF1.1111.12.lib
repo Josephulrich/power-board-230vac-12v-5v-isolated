@@ -1,0 +1,18 @@
+.CMF1.1111.12 :1 ;CAD-model shows appliance inlet with PCB-terminals only, with line switch marking 0/1, snap-in mounting on PCB and fixation with screw to the centre position from the top, with rear-side insulation cover.
+CMF1111112
+*STM J
+*NGS
+*PLB 1="N" 2="L" 3="3" 4="4"
+*MXP 9
+*DFN CMF1.1111.12
+~!Manufacturer_Name (SCHURTER)
+~!Manufacturer_Part_Number (CMF1.1111.12)
+~!Mouser Part Number (693-CMF1.1111.12)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Schurter/CMF1111112?qs=%2F0Eb3QIYuIbNncoXboECMA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.schurter.com/en/datasheet/typ_CMF1.pdf)
+~!Height (18mm)
+~!3D_Model (CMF1.1111.12)
+CMF1.1111.12
+1.1!U 2.1!U 3.1!U 4.1!U 
